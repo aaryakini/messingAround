@@ -5,9 +5,9 @@ function preload() {
 }
 
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  let canvas = document.getElementbyId("canvas");
+  canvas = createCanvas(windowWidth, windowHeight);
   background('#fbf8f3');
-  canvas.style.zIndex = "-1";
 }
 
 function draw() {

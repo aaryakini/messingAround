@@ -30,3 +30,7 @@ svg{
     background: black;
     color: greenyellow;
 }
+
+canvas{
+    z-index: -1;
+}
