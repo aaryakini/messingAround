@@ -5,13 +5,13 @@ function preload() {
 }
 
 function setup() {
-  // let canvas = createCanvas(windowWidth, windowHeight);
-  canvas
+  let canvas = document.getElementById("hacked");
+  let ctx = canvas.getContext("2D");
 }
 
-function draw() {
+function draw(ctx) {
   if (mouseIsPressed) {
-    pen()
+    ctx.pen()
   }
 }
 
