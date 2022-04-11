@@ -12,6 +12,74 @@ body{
     color: #afff2f;
 }
 
+/*.container{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}*/
+
+#donate{
+    display: absolute;
+    position: sticky;
+    width: 220px;
+    right: 30px;
+    bottom: 30px;
+    float: right;
+    -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+    animation:spin 8s linear infinite;
+}
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.navbar{
+    box-sizing: border-box;
+    width: 100vw;
+    border-top: solid #afff2f 4px;
+    border-bottom: solid #afff2f 4px;
+    margin-left: -10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+#first{
+    margin-left: -3px;
+}
+
+#last{
+    align-self: flex-end;
+}
+
+a{
+    font-family: Raster, Times New Roman, serif;
+    font-size: 20px;
+    color: #afff2f;
+    padding: 20px;
+    border: solid #afff2f 4px;
+    margin-right: -4px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
+
+a:hover{
+    background-color: #afff2f;
+    color: black;
+}
+
 .header{
     margin-top: -60px;
     margin-bottom: -60px;
@@ -33,18 +101,27 @@ img{
     z-index: -10;
 }
 
-#close:hover{
-    fill: red;
-}
-
 .content{
-    background: black;
-    color: greenyellow;
+    font-family: Raster, 'Times New Roman', serif;
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    color: #ffffff;
+    line-height: 21px;
+    column-count: 3;
+    column-gap: 20px;
+    width: 60vw;
+    margin: auto;
 }
 
-p{
+.para{
+    margin-top: -10px;
+    background: pink;
+}
+
+#title{
     font-family: Raster, 'Times New Roman', serif;
     font-size: 90px;
     letter-spacing: 2px;
 }
+
 

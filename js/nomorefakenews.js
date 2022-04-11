@@ -5,7 +5,8 @@ function preload() {
 }
 
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  // let canvas = createCanvas(windowWidth, windowHeight);
+  canvas
 }
 
 function draw() {
