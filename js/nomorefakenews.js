@@ -1,7 +1,7 @@
 let img;
 
 function preload() {
-  img = loadImage('assets/images/comp.png');
+  img = loadImage('assets/images/comp.svg');
 }
 
 function setup() {
@@ -17,7 +17,7 @@ function draw() {
 }
 
 function pen() {
- image(img,mouseX,mouseY);
+ image(img,mouseX,mouseY,200);
 }
 
 
