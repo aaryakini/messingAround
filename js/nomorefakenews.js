@@ -6,8 +6,6 @@ function preload() {
 
 function setup() {
   let canvas = document.getElementById("hacked");
-  let ctx = canvas.getContext("2D");
-  ctx.background("pink");
 }
 
 function draw() {
