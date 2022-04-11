@@ -12,12 +12,6 @@ body{
     color: #afff2f;
 }
 
-/*.container{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}*/
-
 #donate{
     display: absolute;
     position: sticky;
@@ -25,10 +19,11 @@ body{
     right: 30px;
     bottom: 30px;
     float: right;
+    margin: 0px;
     -webkit-animation:spin 8s linear infinite;
     -moz-animation:spin 8s linear infinite;
     animation:spin 8s linear infinite;
-    z-index: 3;
+    z-index: 10000;
 }
 
 @-moz-keyframes spin { 
@@ -88,37 +83,34 @@ a:hover{
     text-align: center;
 }
 
-#animate{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: -20px;
-    margin-bottom: 20px;
+#animate { 
+    width:100vw; 
+    height:700px;
 }
 
-img{
-    width: 400px;
-    z-index: -10;
+.dialog img{
+    position: absolute;
+    left: 38%;
+    top: 150px;
+    width: 450px;
 }
 
 .content{
     font-family: Raster, 'Times New Roman', serif;
     font-size: 15px;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.2px;
     color: #ffffff;
     line-height: 21px;
     column-count: 3;
     column-gap: 20px;
     width: 60vw;
+    height: fit-content;
     margin: auto;
 }
 
 .para{
-    margin-top: -10px;
-    background: pink;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 #title{
