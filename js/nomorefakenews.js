@@ -1,3 +1,10 @@
+/***************************************************************************************
+*    Title: Nostalgia: Dragging the Windows XP error dialog
+*    Author: Marco (Marcofolio.net)
+*    Date: 2017 - 2018
+*    Availability: http://old.marcofolio.net/webdesign/nostalgia_dragging_the_windows_xp_error_dialog.html
+*
+***************************************************************************************/
 
 // Time for the interval to duplicate the dialog
 var DUPLICATIONTIME = 50;
