@@ -15,10 +15,6 @@ function draw() {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   if (mouseIsPressed) {
-    pen()
+    image(img,mouseX,mouseY,560,350);
   }
-}
-
-function pen() {
- image(img,mouseX,mouseY,560,350);
 }
