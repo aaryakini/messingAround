@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Raster';
+    src: url('assets/fonts/FKRasterRoman/raster.woff2') format('woff2'),
+         url('assets/fonts/FKRasterRoman/raster.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#header{
+    background: pink;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+svg{
+    width: 35%;
+}
+
+#close:hover{
+    fill: red;
+}
+
+.content{
+    background: black;
+    color: greenyellow;
+}
