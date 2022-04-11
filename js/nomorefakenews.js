@@ -4,7 +4,11 @@ function preload() {
   img = loadImage('assets/images/comp.svg');
 }
 
-function setup() {
+// function setup() {
+ 
+// }
+
+function draw() {
   let canvas = document.getElementById("hacked");
   var ctx = canvas.getContext("2d");
   ctx.fillStyle = "blue";
@@ -14,12 +18,6 @@ function setup() {
     pen()
   }
 }
-
-// function draw() {
-//   if (mouseIsPressed) {
-//     pen()
-//   }
-// }
 
 function pen() {
  image(img,mouseX,mouseY,560,350);
