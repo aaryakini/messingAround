@@ -15,5 +15,5 @@ function draw() {
 }
 
 function pen() {
- image(img,mouseX,mouseY,400);
+ image(img,mouseX,mouseY,600);
 }
