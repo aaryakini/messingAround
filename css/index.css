@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Hatton';
+    src: url('../assets/fonts/hatton/hatton.woff2') format('woff2'),
+         url('../assets/fonts/hatton/hatton.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montreal';
+    src: url('../assets/fonts/montreal/montrealRegular.woff2') format('woff2'),
+         url('../assets/fonts/montreal/montrealRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montreal';
+    src: url('../assets/fonts/montreal/montrealBook.woff2') format('woff2'),
+         url('../assets/fonts/montreal/montrealBook.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montreal';
+    src: url('../assets/fonts/montreal/montrealBold.woff2') format('woff2'),
+         url('../assets/fonts/montreal/montrealBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montreal';
+    src: url('../assets/fonts/montreal/montrealItalic.woff2') format('woff2'),
+         url('../assets/fonts/montreal/montrealItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body{
+	background: white;
+	/*overflow: hidden;*/
+	box-sizing: border-box;
+}
+
+.container{
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	width: 100%;
+	height: fit-content;
+	padding: 20px;
+	/*background-color: pink;*/
+}
+
+/*Header*/
+
+.header{
+	padding: 0px;
+	height: fit-content;
+	width: fit-content;
+}
+
+.header p:hover{
+	color: #b9f500;
+}
+
+.header p{
+	font-family: 'Hatton', Garamond, serif;
+	/*font-weight: bold;*/
+	text-transform: uppercase;
+	font-size: 100px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 105px;
+}
+
+/*Projects + Tooltips*/
+
+#projects{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	font-family: 'Montreal', Arial, sans-serif;
+	font-size: 20px;
+	/*background-color: greenyellow;*/
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: #D929AA;
+  text-align: center;
+  color: #F2EFE4;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  z-index: 5;
+}
+
+.tooltip .tooltiptext a{
+	text-decoration: none;
+	color: white;
+}
+
+.tooltip .tooltiptext a:hover{
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.draggable {
+	position: relative;
+	padding: 20px;
+	/*filter: grayscale(100%);*/
+  	z-index: 5;
+  	/*background-color: orange;*/
+}
+
+.draggable:hover{
+	filter: none;
+}
+
+.wide img{
+	height: auto;
+	width: 350px;
+}
+
+.long img{
+	width: auto;
+	height: 300px;
+}
+
+#diwali img{
+	border-radius: 2%;
+}
+
+
+/*Footer*/
+
+.footer{
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 20px;
+	justify-content: space-between;
+	font-family: 'Montreal', Arial, sans-serif;
+	font-size: 20px;
+	box-sizing: border-box;
+	padding-bottom: 15px;
+	/*background: lightblue;*/
+}
+
+.navbar{
+	width: 300px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+	/*background: blue;*/
+}
+
+.navbar a{
+	position: inline-block;
+	width: fit-content;
+	height: fit-content;
+	color: black;
+	text-decoration: none;
+	border: 1.5px solid black;
+	border-radius: 20px;
+	line-height: 20px;
+	padding: 5px 15px 5px 15px;
+	margin-right: 8px;
+	/*background: pink;*/
+}
+
+.navbar a:hover{
+	color: black;
+	background: #b9f500;
+	text-decoration: none;
+}
+
+.about{
+	width: 600px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-end;
+	/*background: red;*/
+}
+
+.about p{
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+#wikibook img{
+	border: 0.2px solid lightgrey;
+}
+
+#home img{
+	border: 0.2px solid lightgrey;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+	body{
+		overflow: hidden;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
