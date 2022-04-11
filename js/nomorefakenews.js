@@ -1,4 +1,5 @@
 let img;
+let counter = 0;
 
 function preload() {
   img = loadImage('assets/images/comp.svg');
@@ -7,16 +8,18 @@ function preload() {
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
   background('#000000');
+  let main = document.getElementById("header");
+  header.appendChild(canvas);
 }
 
 function draw() {
-  if (mouseIsPressed) {
-    pen()
+  if (mousePressed){
+    pen();
   }
 }
 
 function pen() {
- image(img,mouseX,mouseY,200);
+ image(img,mouseX,mouseY,400);
 }
 
 
