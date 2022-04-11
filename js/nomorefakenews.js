@@ -5,9 +5,8 @@ function preload() {
 }
 
 function setup() {
-  let canvas = document.getElementbyId("canvas");
-  canvas = createCanvas(windowWidth, windowHeight);
-  background('#fbf8f3');
+  let canvas = createCanvas(windowWidth, windowHeight);
+  background('#000000');
 }
 
 function draw() {
