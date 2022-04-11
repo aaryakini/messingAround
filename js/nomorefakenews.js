@@ -40,9 +40,6 @@ function pen() {
 
 
 
-
-
-
 // let mouseCounter = 0;
 // let img;
 
