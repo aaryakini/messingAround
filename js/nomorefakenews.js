@@ -11,8 +11,8 @@ function preload() {
 function draw() {
   let canvas = document.getElementById("hacked");
   var ctx = canvas.getContext("2d");
-  ctx.fillStyle = "blue";
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  // ctx.fillStyle = "blue";
+  // ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   if (mouseIsPressed) {
     image(img,mouseX,mouseY,560,350);
