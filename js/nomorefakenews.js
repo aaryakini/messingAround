@@ -5,7 +5,8 @@ function preload() {
 }
 
 function setup() {
-  let canvas = createCanvas(windowWidth, windowHeight);
+  const canvas = document.getElementById("hacked");
+  const ctx = canvas.getContext('2d')
 }
 
 function draw() {
