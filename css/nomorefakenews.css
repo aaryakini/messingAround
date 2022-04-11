@@ -26,7 +26,6 @@ body{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    z-index: -1;
 }
 
 img{
@@ -40,10 +39,6 @@ img{
 .content{
     background: black;
     color: greenyellow;
-}
-
-canvas{
-    z-index: -1;
 }
 
 p{
