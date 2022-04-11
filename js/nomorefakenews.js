@@ -8,8 +8,6 @@ function preload() {
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
   background('#000000');
-  let main = document.getElementById("header");
-  header.appendChild(canvas);
 }
 
 function draw() {
