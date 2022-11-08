@@ -10,7 +10,7 @@ function setup() {
   canvas.parent('animate');
   background("white");
   imageMode(CENTER);
-  image(img, width, height, scale*img.width, scale*img.height);
+  image(img, width/2, height/2, scale*img.width, scale*img.height);
 }
 
 function draw() {
