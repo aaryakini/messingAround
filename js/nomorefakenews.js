@@ -72,7 +72,6 @@ function setup() {
 }
 
 function draw() {
-   // background(220);
    if (mouseIsPressed === true){
       translate(-img.width/2, -img.height/2);
       image(img,mouseX,mouseY);
