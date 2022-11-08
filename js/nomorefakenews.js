@@ -66,18 +66,18 @@ function setup() {
   let canvas = createCanvas(window.innerWidth, 600);
   canvas.parent('animate');
   background("white");
-  translate(width/2, height/2);
+  translate(width/2 + img.width/2, height/2 + img.height/2);
   image(img,0,0);
-  scale(2);
+  resize(50%,50%);
 }
 
 function draw() {
-  // background(220);
-  if (mouseIsPressed === true){
-    image(img,mouseX,mouseY);
-    fill("black");
-    stroke("pink");
-  }
+   // background(220);
+   if (mouseIsPressed === true){
+      translate(img.width/2, img.height/2);
+      image(img,mouseX,mouseY);
+      resize(50%,50%);
+   }
 }
 
 
