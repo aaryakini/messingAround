@@ -74,16 +74,17 @@ a:hover{
 
 #animate{
     position: relative;
-    /*top: 20px;*/
+    height: 600px;
+    top: 20px;
     margin-top: -200px;
     margin-bottom: 40px;
 }
 
-canvas{
+/*canvas{
     z-index: -1;
     position: relative;
     top: 10%;
-}
+}*/
 
 .dialog img{
     position: absolute;
