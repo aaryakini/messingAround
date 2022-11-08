@@ -1,5 +1,5 @@
 let img;
-let scale = 1.5;
+let scale = 2.5;
 
 function preload() {
   img = loadImage('assets/images/comp.svg');
