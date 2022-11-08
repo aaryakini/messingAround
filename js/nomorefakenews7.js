@@ -10,6 +10,7 @@ function setup() {
   canvas.parent('animate');
   background("black");
   imageMode(CENTER);
+  pixelDensity(3.0);
   image(img, width/2, height/2, scale*img.width, scale*img.height);
 }
 
