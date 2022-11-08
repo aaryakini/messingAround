@@ -8,7 +8,7 @@ function preload() {
 function setup() {
   let canvas = createCanvas(window.innerWidth, 600);
   canvas.parent('animate');
-  background("white");
+  background("black");
   imageMode(CENTER);
   image(img, width/2, height/2, scale*img.width, scale*img.height);
 }
