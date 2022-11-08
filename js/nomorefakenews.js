@@ -66,7 +66,9 @@ function setup() {
   let canvas = createCanvas(window.innerWidth, 600);
   canvas.parent('animate');
   background("white");
+  translate(width/2, height/2);
   image(img,0,0);
+  scale(2);
 }
 
 function draw() {
