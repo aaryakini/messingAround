@@ -68,7 +68,7 @@ function setup() {
   background("white");
   translate(width/2 - img.width/2, height/2 - img.height/2);
   image(img,0,0);
-  resize(100,100);
+  img.resize(100%,100%);
 }
 
 function draw() {
@@ -76,7 +76,7 @@ function draw() {
    if (mouseIsPressed === true){
       translate(-img.width/2, -img.height/2);
       image(img,mouseX,mouseY);
-      resize(100,100);
+      img.resize(100%,100%);
    }
 }
 
