@@ -10,6 +10,8 @@ body{
     overflow-x: hidden;
     background: black;
     color: #afff2f;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 #donate{
@@ -40,22 +42,10 @@ body{
 }
 
 .navbar{
-    box-sizing: border-box;
-    width: 100vw;
     border-top: solid #afff2f 4px;
     border-bottom: solid #afff2f 4px;
-    margin-left: -10px;
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-start;
-}
-
-#first{
-    margin-left: -3px;
-}
-
-#last{
-    align-self: flex-end;
 }
 
 a{
@@ -77,15 +67,27 @@ a:hover{
 }
 
 .header{
-    margin-top: -60px;
-    margin-bottom: -60px;
-    width: 100vw;
+    margin-top: -40px;
     text-align: center;
+    /*background-color: pink;*/
 }
 
-#animate { 
+/*#animate { 
     width:100vw; 
     height:700px;
+}*/
+
+#animate{
+    position: relative;
+    /*top: 20px;*/
+    margin-top: -200px;
+    margin-bottom: 40px;
+}
+
+canvas{
+    z-index: -1;
+    position: relative;
+    top: 10%;
 }
 
 .dialog img{
